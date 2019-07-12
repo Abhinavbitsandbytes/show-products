@@ -16,11 +16,14 @@
             <hr>
             <p class="bottomText text-left no-margin-bottom">{{item.subProducts.slug}}</p>
             <p class="bottomText text-left no-margin-bottom name">For: {{item.model.name}} </p>
-            <div class=" text-left wrap" style="display: flex; width:100%">
+            <div class=" row text-left">
+              <div class="col-md-6 col-6">
+                <span class="bottomText inventoryPriceText">&#8377;{{item.subProducts.inventoryPrice}}</span>
+                <span class="mrpText">&#8377;{{item.subProducts.mrp}}</span>
+                <!-- <span class="limited-stock-text"> Ɍ 1 IN STOCK </span> -->
+              </div>
 
-
-              
-      </div>
+        </div>
       </div>
     </div>
   </div>
