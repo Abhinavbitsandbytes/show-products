@@ -1,0 +1,63 @@
+
+.card_content{
+  margin-top: 64px;
+  text-align: center
+}
+.productCard{
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin: 8px;
+    text-align: center
+
+}
+.offerImg{
+    width: 270px;
+}
+.offerText{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: 16px;
+    color: #9E6D21;
+    font-weight: 600
+
+}
+.thumbnail{
+   width: 140px 
+}
+.bottomText{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text-left{
+    text-align: left
+}
+.inventoryPriceText{
+    font-size: 16px;
+    color: #ff7bac;
+    width: 65%;
+    font-weight: bold
+
+}
+.mrpText{
+    margin-left: 5px;
+    color: #787878;
+    text-decoration: line-through;
+    font-weight: bold
+}
+.no-margin-bottom{
+    margin-bottom: 0px
+}
+.name{
+    font-size: 14px;
+    color: #999;
+    width: 100%
+}
+.offerRow{
+   margin-left: -16px
+}
+.wrap div:last-child {
+    margin-left: auto;
+  }
+

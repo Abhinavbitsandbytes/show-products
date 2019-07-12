@@ -1,0 +1,28 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-11 offset-md-1 card_content">
+        <div class="row" *ngIf="allData">  
+          <div class="col-md-2 col-sm-12  col-12 productCard"  *ngFor=" let item of allData.data ">
+                <div class="row" >
+                  <div class="col-md-1 col-sm-1 col-1 offerRow" >
+              <img src = "https://ik.imagekit.io/dailyobjects/{{item.subProducts.offer.imageUrl}}" class='offerImg' >
+                  </div>
+                  <div class="col-md-9 col-sm-9 col-9" >
+                     <span class="offerText" > {{item.subProducts.offer.text}}</span>
+                  </div>
+                </div>             
+              <img mat-card-image src="https://ik.imagekit.io/dailyobjects{{item.subProducts.thumbnail}}" 
+              class="thumbnail">
+            <hr>
+            <p class="bottomText text-left no-margin-bottom">{{item.subProducts.slug}}</p>
+            <p class="bottomText text-left no-margin-bottom name">For: {{item.model.name}} </p>
+            <div class=" text-left wrap" style="display: flex; width:100%">
+
+
+              
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
