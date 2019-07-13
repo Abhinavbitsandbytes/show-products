@@ -1,9 +1,9 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-11 offset-md-1 card_content">
-      <div class="row" *ngIf="allData">
+      <div class="row card-allign" *ngIf="allData">
         <div class="col-lg-2 col-md-5 col-sm-5 col-xs-12  col-12 productCard" *ngFor=" let item of allData.data ">
-          <div class="row">
+          <div class="row" >
             <div class="col-md-1 col-sm-1 col-1 offerRow">
               <img src="https://ik.imagekit.io/dailyobjects/{{item.subProducts.offer.imageUrl}}" class='offerImg'>
             </div>
