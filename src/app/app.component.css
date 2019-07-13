@@ -10,6 +10,7 @@
     text-align: center
 
 }
+
 .offerImg{
     width: 270px;
 }
@@ -60,4 +61,21 @@
 .wrap div:last-child {
     margin-left: auto;
   }
-
+  .bottom-badge{
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+  }
+  .limited-text{
+    font-size: 10px ;
+    margin-top: 6px;
+    font-size: 10px;
+    display: inline-block;
+    position: absolute; 
+    margin-left: 12px;
+    color: white; 
+    font-weight: bold
+  }
+.badge-width{
+    width: 80px;
+}
